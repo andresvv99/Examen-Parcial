@@ -9,5 +9,7 @@ namespace webApi.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<webApi.Models.Student> Students { get; set; }
     }
 }
